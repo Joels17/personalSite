@@ -16,3 +16,13 @@
     line-height: 2em;
 }
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #info {
+        margin: 1rem 10rem 1rem 10rem;
+    }
+    #intro {
+        margin: 1rem 10rem 1rem 10rem;
+    }
+  }
+

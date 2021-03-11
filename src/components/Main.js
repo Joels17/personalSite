@@ -8,10 +8,12 @@ export default class Main extends React.Component {
     render() {
         return (
             <div id="main">
-                <p>Hello,</p>
-                <p>My name is <b>Joel Semeniuk</b>. Welcome to my website.</p>
-                <p>I am a computer science student at the <i>University of British Columbia Okanagan</i>.</p>
-                <p>Please take a look around!</p>
+                <div id="intro"> 
+                    <p>Hello,</p>
+                    <p>My name is <b>Joel Semeniuk</b>. Welcome to my website.</p>
+                    <p>I am a computer science student at the <i>University of British Columbia Okanagan</i>.</p>
+                    <p>Please take a look around!</p>
+                </div>
                 <div id="info">
                     <p>Email: <i>joel.semeniuk@gmail.com</i></p>
                     <p>Github: <a href="https://github.com/Joels17">Joels17</a></p>
@@ -46,7 +48,7 @@ export default class Main extends React.Component {
                         for a very easy method of updating and adding new projects.
                     " 
                     software="
-                        HTML, CSS, JavaScript (React), Digital Ocean, Docker, Git
+                        HTML, CSS, JavaScript (React), Digital Ocean, Git
                     "   
                 />
             </div>

@@ -5,40 +5,23 @@ export default class Skills extends React.Component {
     render() {
         return (
             <div id="skills">
-                <table id="t">
-                    <thead>
-                        <tr>
-                            <th>Most Experience</th>
-                            <th>Some Experience</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Java</td>
-                            <td>Python</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>R</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>MatLab</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>PHP</td>
-                        </tr>    
-                        <tr>
-                            <td>SQL</td>
-                            <td>Git</td>
-                        </tr> 
-                        <tr>
-                            <td></td>
-                            <td>Docker</td>
-                        </tr> 
-                    </tbody>                                                                            
-                </table>
+                <div id="mostE">
+                    <p><b>Most Experience</b></p>
+                    <p>Java</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>SQL</p>
+                </div>
+                <div id="someE">
+                    <p><b>Some Experience</b></p>
+                    <p>Python</p>
+                    <p>R</p>
+                    <p>MatLab</p>
+                    <p>PHP</p>
+                    <p>Git</p>
+                    <p>Docker</p>
+                </div>
             </div>
         )}
 }
