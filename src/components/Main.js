@@ -1,8 +1,9 @@
 import React from 'react';
 import Skills from './Skills';
 import Project from './Project';
+import Experience from'./Experience';
 import resume from '../files/Joel_Semeniuk_Resume.pdf';
-import img from '../images/dannimusicstudio.PNG';
+import imgDanni from '../images/dannimusicstudio.PNG';
 
 export default class Main extends React.Component {
     render() {
@@ -11,7 +12,7 @@ export default class Main extends React.Component {
                 <div id="intro"> 
                     <p>Hello,</p>
                     <p>My name is <b>Joel Semeniuk</b>. Welcome to my website.</p>
-                    <p>I am a computer science student at the <i>University of British Columbia Okanagan</i>.</p>
+                    <p>I am a 4th student attending the <i>University of British Columbia Okanagan</i>, majoring in Computer Science and minoring in Data Science.</p>
                     <p>Please take a look around!</p>
                 </div>
                 <div id="info">
@@ -21,8 +22,35 @@ export default class Main extends React.Component {
                 </div>
                 <h1>Skills</h1>
                 <Skills />
+                <h1>Experience</h1>
+                <div id="experience">
+                <Experience 
+                    title="Reflex Enterprise Solutions Group" 
+                    desc="Student Software Developer, May 2021 - Present" 
+                    jobdesc="
+                        Created a solution for backend report generation communication to the frontend using SignalR.
+                        Developing a program to upgrade company projects to newer versions of .NET.
+                        Refactoring older projects to take advantage of the repository model.
+                    "
+                    />
+                </div>
                 <h1>Projects</h1>
-                <Project title="Danni's Music Studio" img={img} 
+                <Project title="Medical Image matching using AI for record linkage"
+                    desc="
+                        This is a program being built for my University Capstone Software Engineering Project and is being done for BC Cancer.
+                        It is done in groups of four and runs for the duration of my 4th year. The program will utilize 
+                        Tensorflow and other open source Python libraries.
+                    "
+                    func="
+                        The program to be built will match medical images using AI. 
+                        BC Cancer’s dataset houses many mammograms in which most patients will have multiple images stored to track changes over time (screening), or to better assess suspicious results (diagnostic). 
+                        Sometimes, due to manual entry, there will be discrepancies between the same patient’s mammograms. 
+                        Through the program to be developed, suspected mismatches can be compared using various AI and machine learning methods to output a probability of a match based on the images’ pixel data.
+                    "
+                    software="
+                        Python (Tensorflow, OpenCV, and other open source libraries)
+                    "/>
+                <Project title="Danni's Music Studio" img={imgDanni} 
                     desc="
                         This is a website that I developed for a local music teacher. I had originally created the entire app in React,
                         but later found some optimization issues and resorted to pure JavaScript to better my understanding of the language.
