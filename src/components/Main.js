@@ -12,7 +12,7 @@ export default class Main extends React.Component {
                 <div id="intro"> 
                     <p>Hello,</p>
                     <p>My name is <b>Joel Semeniuk</b>. Welcome to my website.</p>
-                    <p>I am a 4th student attending the <i>University of British Columbia Okanagan</i>, majoring in Computer Science and minoring in Data Science.</p>
+                    <p>I am a 4th year student attending the <i>University of British Columbia Okanagan</i>, majoring in Computer Science and minoring in Data Science.</p>
                     <p>Please take a look around!</p>
                 </div>
                 <div id="info">
@@ -57,7 +57,7 @@ export default class Main extends React.Component {
                         The timeline for the rebuild was tight as the client only had a few weeks of acceptable downtime.
                     "
                     func="
-                        This site allows for user to create an account and login, with student creation. It has multi level users as the teacher
+                        This site allows for users to create an account and login, with student creation. It has multi level users as the teacher
                         has different actions than a normal user. The teacher is able to create notes for a specific student, and the 
                         user with that student is able to view the notes created by the teacher. The teacher is also able to edit and delete student notes.
                         Another action that the teacher has is the ability to edit the front page through a WYSIWYG editor.
