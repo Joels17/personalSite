@@ -15,17 +15,7 @@
 #main p {
     line-height: 2em;
 }
-#experience{
-    margin: 1rem 2rem 1rem 2rem;
-    background-color: $gray;
-    padding: 0.25rem 1rem 0.25rem 1rem;
-    border-radius: 5px;
-}
 
-#experience #jobdesc{
-    margin: 1rem 2rem 1rem 2rem;
-    color: $lightergray;
-}
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */

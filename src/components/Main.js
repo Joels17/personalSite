@@ -12,7 +12,7 @@ export default class Main extends React.Component {
                 <div id="intro"> 
                     <p>Hello,</p>
                     <p>My name is <b>Joel Semeniuk</b>. Welcome to my website.</p>
-                    <p>I am a 4th year student attending the <i>University of British Columbia Okanagan</i>, majoring in Computer Science and minoring in Data Science.</p>
+                    <p>I am a 4th year student (graduating April 2022) attending the <i>University of British Columbia Okanagan</i>, majoring in Computer Science and minoring in Data Science.</p>
                     <p>Please take a look around!</p>
                 </div>
                 <div id="info">
@@ -26,7 +26,7 @@ export default class Main extends React.Component {
                 <div id="experience">
                 <Experience 
                     title="Reflex Enterprise Solutions Group" 
-                    desc="Student Software Developer, May 2021 - Present" 
+                    desc="Software Developer, May 2021 - Present" 
                     jobdesc="
                         Created a solution for backend report generation communication to the frontend using SignalR.
                         Developing a program to upgrade company projects to newer versions of .NET.
