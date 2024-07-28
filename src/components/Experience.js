@@ -10,7 +10,7 @@ export default class Main extends React.Component {
                     <div id="job">
                         <h3>{this.props.title}</h3>
                         <p>{this.props.desc}</p>
-                        <p id="jobdesc">{this.props.jobdesc}</p>
+                        <div id="jobdesc" dangerouslySetInnerHTML={{__html: this.props.jobdesc}}/>
                     </div>
                 </div>
             </div>
